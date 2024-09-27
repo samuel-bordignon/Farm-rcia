@@ -11,10 +11,6 @@ function Header() {
           <i class="bi bi-house"></i>
            Início
         </button>
-        <button className="op-icon " id="op-sobre">
-          <i class="bi bi-info-circle"></i>
-           Sobre
-        </button>
         <button className="op-icon " id="op-contato">
           <i class="bi bi-telephone"></i>
            Fale-conosco

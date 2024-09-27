@@ -6,7 +6,6 @@ import './LandingPage.css'
 function LandingPage() {
     return (
         <div className='landing-container'>
-            <Header />
             <div className="secao-container">
                 <div className="infos-container">
 

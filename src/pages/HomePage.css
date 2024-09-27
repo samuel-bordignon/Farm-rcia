@@ -6,17 +6,20 @@
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
+
 #section-grid {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr; /* Três colunas */
+    grid-template-columns: 1fr 1fr 1fr  ; /* Três colunas */
     gap: 20px;
     padding: 40px;
     text-align: center;
     border-bottom: 1px solid #ddd;
 }
 
+
+
 .section img{
-    width: 90%;
+    width: 80%;
 }
 
 
