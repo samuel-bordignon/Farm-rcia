@@ -11,13 +11,13 @@ function LandingPage() {
                 <div className="infos-container">
 
                     <div className="titulo-container">
-                        <h1>A Farmárcia está de cara nova!</h1>
+                        <h1>A Far<span>márcia</span> está de cara nova!</h1>
                     </div>
                     <div className="descricao-container">
-                        <p>Com a nova Farmárcia, você pode comprar seus remédios sem sair de casa! Basta acessar o site, fazer seu pedido e aguardar a entrega. Simples assim!</p>
+                        <p>Uma gerência que o Márcio nunca irá superar</p>
                     </div>
                     <div className="btn-container">
-                        <button>Comprar agora</button>
+                        <button>Descubra agora</button>
                     </div>
                    
                 </div>

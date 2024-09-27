@@ -6,22 +6,22 @@ function Header() {
   return (
     <div className='header-container'>
       <Logo />
-      <div className="op-container">
-        <button className="op-home" id="op-icon">
+      <div className="op-container ">
+        <button className="op-icon " id="op-home">
           <i class="bi bi-house"></i>
-          Início
+           Início
         </button>
-        <button className="op-sobre" id="op-icon">
+        <button className="op-icon " id="op-sobre">
           <i class="bi bi-info-circle"></i>
-          Sobre
+           Sobre
         </button>
-        <button className="op-contato " id="op-icon">
+        <button className="op-icon " id="op-contato">
           <i class="bi bi-telephone"></i>
-          Fale-conosco
+           Fale-conosco
         </button>
-        <button className="op-galeria " id="op-icon">
-          <i class="bi bi-telephone"></i>
-          Galeria
+        <button className="op-icon " id="op-galeria">
+        <i class="bi bi-columns"></i>
+           Galeria
         </button>
       </div>
     </div>

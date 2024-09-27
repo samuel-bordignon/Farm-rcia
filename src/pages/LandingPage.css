@@ -13,7 +13,11 @@
 .landing-container{
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-5);
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 }
 .secao-container{
     display: flex;
@@ -28,20 +32,47 @@
     width: 50%;
 }
 
+.img-container img{
+    margin-right: 230px;
+}
+
 .infos-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 2%;
     width: 50%;
 }
 .infos-container h1{
-   font-size: 90px;
+   font-size: 70px;
+   margin-top: 60px;
 }
-.espaco-container{
-    height: 5px;
+
+.titulo-container span{
+    color: var(--cor-4);
+}
+
+.descricao-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 100%;
 }
 
 .infos-container p{
+    color: var(--cor-4) ;
+    font-size: 15px;
+}
+
+.btn-container button{
+    background-color: var(--cor-3);
+    color: var(--cor-2);
+    border-radius: 100px;
+    border:none;
+    padding: 10px;
     font-size: 20px;
- }
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    padding: 0;
+    margin-top: 80px;
+}

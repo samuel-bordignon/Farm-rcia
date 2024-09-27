@@ -6,3 +6,6 @@
     --cor-5: #e6e6e6;
     --cor-6: #ef97a4;
 }
+body{
+    background-image: "./images/background.png";
+}
