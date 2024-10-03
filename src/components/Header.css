@@ -57,6 +57,6 @@ button.op-icon.active {
     height: 3px; /* Altura da linha sublinhada */
     background-color: var(--cor-2); /* Cor do sublinhado */
     border-radius: 4px; /* Faz as pontas arredondadas */
-    width: 90%;
+    width: 95%;
     margin: 0 auto; /* Centraliza a linha sublinhada */
   }

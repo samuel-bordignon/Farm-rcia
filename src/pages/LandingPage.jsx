@@ -6,9 +6,8 @@ import './LandingPage.css'
 function LandingPage() {
     return (
         <div className='landing-container'>
-            <div className="secao-container">
+            <div className="secao-container-landing">
                 <div className="infos-container">
-
                     <div className="titulo-container">
                         <h1>A Far<span>márcia</span> está de cara nova!</h1>
                     </div>
@@ -20,7 +19,7 @@ function LandingPage() {
                     </div>
                    
                 </div>
-                <div className="img-container">
+                <div className="img-container-landing">
                     <img src="/images/farmarcia.PNG-removebg-preview-removebg-preview.png" alt="Imagem de remédios" />
                 </div>
             </div>

@@ -24,7 +24,7 @@
 
 
 .section h2 {
-    color: #FF6347; /* Cor para destacar o título */
+    color: var(--cor-4); /* Cor para destacar o título */
     margin-bottom: 20px;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .highlight {
-    color: #FF6347;
+    color: var(--cor-4);
     font-weight: bold;
 }
 
